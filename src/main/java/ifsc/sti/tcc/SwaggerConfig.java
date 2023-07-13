@@ -33,8 +33,8 @@ public class SwaggerConfig implements WebMvcConfigurer {
 	}
 
 	private ApiInfo createMetaInfo() {
-		ApiInfo lApiInfo = new ApiInfo("API REST STI", "API REST Focos de dengue", "1.0",
-				"Uso restrito para estudantes", new Contact("Trabalho de Computação Urbana", "", ""),
+		ApiInfo lApiInfo = new ApiInfo("API REST STI", "API REST Cargas Brasil", "1.0",
+				"Uso restrito", new Contact("Ofertar fretes oara caminhoneiros", "", ""),
 				"Chefe Apache License Version 2.0", "http://www.apache.org/licenses/LICENSE-2.0", new ArrayList<>());
 		return lApiInfo;
 	}
